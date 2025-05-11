@@ -30,14 +30,23 @@ nav a {
     color: #f8b400;
     text-decoration: none;
     font-size: 18px;
+    word-spacing: 10px;
+    
 }
-
+nav a:hover {
+	text-decoration: overline;
+}
 /* Main Content */
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
 }
 
 img {
