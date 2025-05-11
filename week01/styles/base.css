@@ -36,6 +36,13 @@ nav a {
 nav a:hover {
 	text-decoration: overline;
 }
+p{
+    margin: 15px;
+    color: #f86300;
+    padding: 10px;
+    text-align: center;
+
+}
 /* Main Content */
 main {
     display: flex;
