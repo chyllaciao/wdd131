@@ -40,7 +40,7 @@ p{
     margin: 15px;
     color: #f86300;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 
 }
 /* Main Content */
@@ -53,7 +53,7 @@ main {
 }
 
 img {
-    max-width: 100%;
+    max-width: 10%;
     height: auto;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
