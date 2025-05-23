@@ -1,0 +1,8 @@
+nav {
+    display: flex;
+    justify-content: flex-end; /* Pushes items to the right */
+    padding: 10px;
+}
+footer{
+  text-align: center;
+}
