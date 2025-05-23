@@ -1,8 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation */
 nav {
     display: flex;
-    justify-content: flex-end; /* Pushes items to the right */
-    padding: 10px;
+    flex-direction: column; /* Stack items in mobile */
+    text-align: center;
 }
-footer{
-  text-align: center;
+
+nav li {
+    list-style: none;
+    padding: 10px;
 }

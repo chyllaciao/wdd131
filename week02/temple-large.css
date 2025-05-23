@@ -1,13 +1,17 @@
-@media screen and (min-width: 768px) {
-  .container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-nav {
-    display: flex;
-    justify-content: flex-end; /* Pushes items to the right */
-    padding: 10px;
-}
-footer{
-  text-align: center;
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row; /* Horizontal layout for larger screens */
+        justify-content: flex-end;
+    }
+
+    main {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
+        gap: 20px;
+    }
 }
