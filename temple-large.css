@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+    nav {
+        flex-direction: row; /* Horizontal layout for larger screens */
+        justify-content: flex-end;
+    }
+
+    main {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
+        gap: 20px;
+    }
+}
+
+/* Show menu for larger screens */
+@media (min-width: 768px) {
+    .menu-icon {
+        display: none; /* Hide the menu icon on larger screens */
+    }
+    
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+    }
+}
