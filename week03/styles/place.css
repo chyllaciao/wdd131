@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #009688; /* Example scheme */
+    text-align: center;
+}
+
+
+.weather-icon::after {
+    content: "⛅"; /* Add weather icon via pseudo-element */
+    text-align: center;
+}
